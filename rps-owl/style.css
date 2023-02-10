@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #24272e;
+  color: #fff;
+  font-family: "roboto", sans-serif;
+}
+header {
+  background: #fff;
+  padding: 20px;
+}
+header h1 {
+  color: #444;
+  text-align: center;
+  font-weight: 100;
+}
+.score-board {
+  border: 3px solid #fff;
+  width: 300px;
+  margin: 40px auto;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+.badge {
+  background: #e2584d;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 6px;
+}
+#user{
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-10%, -50%);
+}
+#computer{
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(10%, -50%);
+}
+.result {
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
+.result {
+  line-height: 50px;
+}
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+
+.button {
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .15rem;
+	transition: all .3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	color: red;
+	}
+
